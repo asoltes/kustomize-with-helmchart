@@ -7,9 +7,15 @@ helmCharts:
     version: 15.5.2
     releaseName: nginx
     namespace: nginx
-    valuesFile: values.yaml
+    valuesFile: nginx-values.yaml
+
+  - name: redis
+    repo: https://charts.bitnami.com/bitnami
+    version: 19.5.2
+    releaseName: redis
+    namespace: redis
+    valuesFile: redis-values.yaml
 
 resources:
-  - namespace.yaml
-
-namespace: nginx
+  - namespace-nginx.yaml
+  - namespace-redis.yaml
