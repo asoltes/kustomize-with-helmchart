@@ -1,4 +1,4 @@
-name: redis-multi
+nameOverride: redis-multi
 architecture: standalone
 auth:
   enabled: true
