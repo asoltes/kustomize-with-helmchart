@@ -1,5 +1,5 @@
 replicaCount: 2
 service:
-  type: NodePort
+  type: ClusterIP
   nodePorts:
     http: 30080
