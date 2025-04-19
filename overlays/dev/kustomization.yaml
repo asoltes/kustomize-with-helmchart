@@ -8,6 +8,7 @@ configMapGenerator:
   - name: nginx-values
     files:
       - nginx-values.yaml
+      
   - name: redis-values
     files:
       - redis-values.yaml
