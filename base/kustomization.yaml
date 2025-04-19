@@ -19,5 +19,3 @@ helmCharts:
 resources:
   - namespace-nginx.yaml
   - namespace-redis.yaml
-  - fdl-values.yaml
-  - redis-values.yaml
