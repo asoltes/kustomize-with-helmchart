@@ -7,7 +7,7 @@ helmCharts:
     version: 0.1.1
     releaseName: fdl
     namespace: fdl
-    valuesFile: fdl-values.yaml
+    # valuesFile: fdl-values.yaml
 
   - name: redis
     repo: https://charts.bitnami.com/bitnami
