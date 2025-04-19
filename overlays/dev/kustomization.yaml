@@ -6,11 +6,17 @@ resources:
 
 namePrefix: dev-
 
-configMapGenerator:
-  - name: nginx-values
-    files:
-      - nginx-values.yaml
+helmCharts:
+  - name: nginx
+    repo: https://charts.bitnami.com/bitnami
+    version: 15.5.2
+    releaseName: nginx
+    namespace: nginx
+    valuesFile: values/nginx-values.yaml
 
-  - name: redis-values
-    files:
-      - redis-values.yaml
+  - name: redis
+    repo: https://charts.bitnami.com/bitnami
+    version: 19.5.2
+    releaseName: redis
+    namespace: redis
+    valuesFile: values/redis-values.yaml
