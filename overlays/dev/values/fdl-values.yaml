@@ -13,7 +13,7 @@ awsSecretName: aws-credentials
 ingress:
   enabled: true
   className: traefik
-  host: sarapmo.andrestrek.com
+  host: wtf.andrestrek.com
   path: /
   pathType: Prefix
 
