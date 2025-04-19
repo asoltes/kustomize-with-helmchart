@@ -2,11 +2,11 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 helmCharts:
-  - name: fdl-app
+  - name: fdl
     repo: https://asoltes.github.io/fdl-app-helm-charts/
-    version: 1.16.0
+    version: 3.3.0
     releaseName: fdl-app
-    namespace: fdl-app
+    namespace: fdl
     valuesFile: nginx-values.yaml
 
   - name: redis
