@@ -14,7 +14,7 @@ helmCharts:
     version: 19.5.2
     releaseName: redis
     namespace: redis
-    valuesFile: redis-values.yaml
+    # valuesFile: redis-values.yaml
 
 resources:
   - namespace-nginx.yaml
