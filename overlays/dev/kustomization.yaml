@@ -20,3 +20,10 @@ helmCharts:
     releaseName: redis
     namespace: redis
     valuesFile: values/redis-values.yaml
+
+  - name: fdl
+    repo: https://asoltes.github.io/fdl-app-helm-charts/
+    version: 0.1.1
+    releaseName: fdl
+    namespace: fdl
+    valuesFile: values/fdl-values.yaml
