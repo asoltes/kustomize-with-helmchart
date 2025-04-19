@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fdl-test
-  namespace: fdl-test
+  name: nginx
+  namespace: nginx
 spec:
   replicas: 3
