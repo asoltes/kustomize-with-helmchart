@@ -12,9 +12,9 @@ awsSecretName: aws-credentials
 ingress:
   enabled: true
   className: traefik
-  host: andres.andrestrek.com
-  entrypoints: web
-  middlewares: file-stream-app-forward-auth@kubernetescrd
+  host: sarapmo.andrestrek.com
+  # entrypoints: web
+  # middlewares: file-stream-app-forward-auth@kubernetescrd
   path: /
   pathType: Prefix
 
