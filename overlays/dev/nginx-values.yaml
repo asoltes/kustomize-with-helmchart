@@ -1,5 +1,4 @@
 
-nameOverride: nginx-multi
 replicaCount: 1
 service:
   type: NodePort
