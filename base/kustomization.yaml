@@ -4,7 +4,7 @@ kind: Kustomization
 helmCharts:
   - name: fdl
     repo: https://asoltes.github.io/fdl-app-helm-charts/
-    version: 0.1.1
+    version: 0.1.0
     releaseName: fdl
     namespace: fdl
     valuesFile: nginx-values.yaml
