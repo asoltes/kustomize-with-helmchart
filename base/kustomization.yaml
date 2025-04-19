@@ -10,7 +10,8 @@ helmCharts:
     valuesFile: nginx-values.yaml
 
   - name: redis
-    repo: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    repo: https://github.com/bitnami/charts.git
+    path: bitnami/redis
     version: 19.5.2
     releaseName: redis
     namespace: redis
