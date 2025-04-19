@@ -7,9 +7,9 @@ resources:
 namePrefix: dev-
 
 configMapGenerator:
-  - name: fdl-values
+  - name: nginx-values
     files:
-      - fdl-values.yaml
+      - nginx-values.yaml
 
   - name: redis-values
     files:
